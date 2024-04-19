@@ -1,0 +1,183 @@
+/* encabezado */
+.container{
+    display: flex;
+    justify-content: space-around;
+    position: static;
+    padding: 13px;
+}
+.header-titulo{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.titulo-correo{
+    display:flex;
+    padding-left: 8em;
+}
+
+/* main */
+.container-main{
+    display: flex;
+    flex-direction: column;
+}
+.lista-redes{
+    display: flex;
+    gap: 44px;
+}
+/* section */
+.container-sobreMi {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+}
+.cuadro-cinco{
+    display: flex;
+    flex-direction: column;
+}
+.cuadro-siete{
+    display: flex;
+    flex-direction: column;
+}
+/* media queries */
+@media (min-width: 768px){
+    /* header */
+    .header-titulo{
+        gap: 290px;
+    }
+    .titulo{
+        margin-left: -275px;
+    }
+    /* main */
+    .titulo-perfil{
+        width: 65%;
+        padding-left: 136px;
+        position: absolute;
+        padding-top: 20px;
+    }
+    .subtitulo-perfil{
+        width: 80%;
+        position: absolute;
+        text-align: left;
+        padding-left: 135px;
+        padding-top: 6.8em;
+    }
+    .lista-redes{
+        padding-left: 11em;
+        gap: 37px;
+    }
+    /* sections */
+    /* section 5 */
+    .cuadro-Formacion{
+        margin: 55px 86px;
+    }
+    /* imagenes */
+    .imagen-cadif1{
+        position: absolute;
+        margin-top: -26px;
+        height: 148px;
+    }
+    .imagen-alura{
+        padding-left: 22em;
+        margin-top: -17.8em;
+    }
+    /* texto de las imagenes */
+    .cadif1{
+        margin-top: 160px;
+        padding-left: 3em;
+    }
+    .sub-cadif1{
+        padding-left: 5em;
+    }
+    .alura{
+        text-align: right;
+        padding-right: 3.3em;
+    }
+    .sub-alura{
+        text-align: right;
+        padding-right: 3em;
+    }
+    /* section 6 */
+    .texto-padre{
+        display: block;
+        width: 26%;
+        position: absolute;
+        margin-left: 19em;
+        margin-top: 11em;
+    }
+    .cuadro-repositorio h3{
+        margin-left: 8em;
+    }
+    #juegosecreto{
+        margin-left: 9.3em;
+    }
+    .cuadro-repositorio p{
+        margin-left: 9em;
+    }
+    .cuadro-repositorio button{
+        margin-left: 5em;
+    }
+}
+/* fin media queries tablet */
+/* media queries desktop */
+@media (min-width: 1044px){
+    /* header */
+    .header-titulo{
+        gap: 590px;
+    }
+    .titulo{
+        margin-left: -580px;
+    }
+    .lista-desktop{
+        display: flex;
+       position: absolute;
+       margin-left: 26.9em;
+       gap: 11px;
+    }
+    .lista-desktop li{
+        font-size: 18px;
+        font-family: "Josefin Sans", sans-serif;
+        color: white;
+    }
+    .lista-desktop li:hover{
+        color: orangered;
+    }
+    /* main */
+    /* cuadros section */
+    .cuadro-icons{
+        margin-left: 144px;
+    }
+    .cuadro-hobbies{
+        margin-left: 160px;
+    }
+    /* imagenes de formacion */
+    .imagen-cadif1{
+        position: absolute;
+        margin-top: -26px;
+        height: 148px;
+        margin-left: 2em;
+    }
+    .imagen-alura{
+        padding-left: 33em;
+        margin-top: -17.8em;
+    }
+    /* texto de las imagenes */
+    .cadif1{
+        margin-top: 160px;
+        padding-left: 5.8em;
+    }
+    .sub-cadif1{
+        padding-left: 7.7em;
+    }
+    .alura{
+        text-align: right;
+        padding-right: 9.1em;
+    }
+    .sub-alura{
+        text-align: right;
+        padding-right: 8.2em;
+    }
+    /* fin imagenes de formcion */
+    .texto-padre{
+        margin-left: 25em;
+    }
+}

@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+/* encabezado */
+.container{
+    background-color: rgb(23, 83, 173);
+}
+.icon-1{
+    width: 28px;
+    height: 30px;
+}
+.titulo{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-weight:400;
+    color: white;
+}
+.titulo-correo{
+    color: white;
+    font-size: 11px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+.lista-desktop{
+    display: none;
+}
+/* main */
+.cuadro-uno{
+    background-color: rgb(23,83,173);
+}
+.foto-perfil{
+    width: 105px;
+    height: 105px;
+    border-radius: 50%;
+    object-fit: cover; 
+    padding: 25px 15px;
+}
+.titulo-perfil{
+    font-weight: bold;
+    font-family: "Port Lligat Sans", sans-serif;
+    font-size: 28px;
+    margin: 15px;
+}
+.subtitulo-perfil{
+    font-size: 14px;
+    font-style: italic;
+    font-family: monospace;
+    margin: 13px;
+    text-align: left;
+    color: rgb(179, 179, 179);
+}
+.lista-redes{
+    margin-left: 13px;
+    margin-top: 0.5em;
+    margin-bottom: 1.2em;
+}
+.lista-redes li a{
+    color: black;
+    text-decoration: none;
+    padding: 6px;
+}
+/* section dos */
+.cuadro-dos{
+    background-color: rgba(32, 31, 31, 0.76);
+}
+.container-sobreMi{
+    padding: 18px;
+}
+.titulo-info{
+    color: rgba(179, 179, 179, 0.932);
+    font-weight: bold;
+    font-size: 25px;
+    font-style: italic;
+    font-family: "Josefin Sans", sans-serif;
+}
+.titulo-info:hover{
+    box-shadow: 3px 5px 15px;
+    transition: 2s all;
+}
+.parrafo{
+    color: rgba(0, 0, 0, 0.747);
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1.5px;
+    font-size: 16px;
+}
+.firma{
+    width: 140px;
+    height: 52px;
+}
+/* section tres */
+.cuadro-tres{
+    background-color: rgb(23, 83, 173);
+}
+.skills{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top: 33px;
+    color: rgba(179, 179, 179, 0.932);
+    font-weight: bold;
+}
+.skills:hover{
+    color: rgb(8, 39, 104);
+}
+
+.cuadro-icons{
+    margin: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 0px;
+    
+}
+.icon{
+    width: 55px;
+    height: 67px;
+    padding: 58px;
+}
+.icon img:nth-child(1){
+    margin-top: 9px;
+    padding-top: 4px;
+    padding-bottom: 14px;
+}
+.icon p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+/* section cuatro */
+.cuadro-cuatro{
+    background-color: rgb(23, 83, 173);
+    margin-top: -35px;
+}
+.hobbies{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 20px;
+    padding-top: 20px;
+    color: rgba(179, 179, 179, 0.932);
+    font-weight: bold;
+}
+.hobbies:hover{
+    color: rgb(8, 39, 104);
+}
+.cuadro-hobbies{
+    margin: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 0px;
+}
+.icon-hobbie{
+    width: 46px;
+    height: 57px;
+    padding: 58px;
+}
+.icon-hobbie p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+}
+#text-series{
+    width: 93px;
+    margin-left: -20px;
+    font-size: 14px;
+}
+.cuadro-cinco{
+    background-color: rgba(32, 31, 31, 0.76);
+    margin-top: -35px;
+    padding-bottom: 2px;
+}
+.cuadro-cinco h1{
+    text-align: center;
+    padding-top: 22px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    color: rgba(179, 179, 179, 0.932);
+    font-size: 20px;
+}
+.cuadro-Formacion{
+    margin: 35px 100px;
+}
+.imagen-cadif1{
+    background-color: rgb(255 255 255 / 34%);
+    margin: -17px;
+    width: 265px;
+    height: 135px;
+    text-align: center;
+    padding-top: 28px;
+}
+.cuadro-Formacion h3{
+    margin-left: -71px;
+    padding-top: 1.8em;
+    font-family: "Josefina Sans", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(26, 25, 25);
+}
+.cuadro-Formacion p{
+    padding-top: 0.8em;
+    margin-left: -55px;
+    font-family: "Josefina Sans", sans-serif;
+    font-size: 19px;
+    font-weight: 300;
+    color: rgb(26, 25, 25);
+}
+.imagen-alura{
+    padding-top: 1.4em;
+}
+.imagen-alura img{
+    background-color: rgb(255 255 255 / 34%);
+    margin-left: -17px;
+}
+/* section experiencia laboral */
+.cuadro-seis{
+    background-color: rgb(23, 83, 173);
+}
+.cuadro-seis h1{
+    text-align: center;
+    color: rgba(179, 179, 179, 0.932);
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    padding: 25px;
+    font-size: 23px;
+}
+.texto-padre{
+    display: none;
+}
+.imagen1{
+    margin: 15px 67px 35px;
+}
+.imagen1 img{
+    width: 300px;
+    height: 220px;
+}
+.cuadro-repositorio h3{
+    margin-left: 29px;
+    font-family: "Josefina Sans", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(26, 25, 25);
+}
+.cuadro-repositorio p{
+    padding-top: 0.6em;
+    margin-left: 40px;
+    font-family: "Josefina Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    color: rgb(26, 25, 25);
+}
+.cuadro-repositorio button{
+    margin: 15px;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.btn-repositorio{
+    border: 1px solid rgb(34, 34, 161);
+    
+}
+.btn-repositorio a{
+    text-decoration: none;
+}
+.btn-repositorio:hover{
+    background-color:  rgb(34, 34, 161);
+}
+.btn-demo{
+    border: none;
+    background-color: rgb(34, 34, 161);
+    
+}
+.btn-demo a{
+    text-decoration: none;
+}
+.btn-demo:hover{
+    background-color: white;
+}
+.imagen2{
+    margin: 15px 67px 35px;
+}
+.imagen2 img{
+    width: 300px;
+    height: 220px;
+}
+/* section contacto */
+.cuadro-siete{
+    background-color: rgba(32, 31, 31, 0.76);
+}
+.cuadro-siete h1{
+    color: rgba(179, 179, 179, 0.932);
+    padding: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+.cuadro-siete p {
+    padding-left: 16px;
+    padding-right: 27px;
+    padding-bottom: 35px;
+    font-family: "Port Lligat Sans", sans-serif;
+}
+.cuadro-contacto{
+    padding: 26px;
+}
+form label{
+    display: block;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    margin: 0 0 10px;
+    
+}
+select {
+    font-family: cursive, sans-serif;
+    background:  rgb(23, 83, 173);
+    color: #fff;
+    border-radius: 9px;
+    
+}
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 85%;
+    border: none;
+}
+.enviar {
+  background-color: var(--c-button);
+  border: unset;
+  color: var(--c-text);
+  font-family: "Exo 2", sans-serif;
+  letter-spacing: 1px;
+  padding: 1.5rem 3rem;
+  position: relative;
+  text-transform: uppercase;
+  transition-timing-function: ease;
+  transition-duration: 0.125s;
+  transition-property: background-color color;
+  width: 90%;
+}
+.enviar:hover{
+    background-color: orangered;
+    transition: all 1.5s;
+}
+/* fin sections */
+/* fin main */
+/* footer section */
+#footer-{
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(24, 24, 24, 0.856);
+    color: rgba(179, 179, 179, 0.932);
+}
+/* fin footer section */
