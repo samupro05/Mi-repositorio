@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:100&display=swap');
+@import "bourbon";
 /* encabezado */
 .container{
     background-color: rgb(23, 83, 173);
@@ -260,24 +261,77 @@
 }
 .btn-repositorio{
     border: 1px solid rgb(34, 34, 161);
-    
+    text-transform: uppercase;
+    position: relative;
+    box-shadow: 0 0 0 0 transparent;
+
+    transition: all 0.3s ease-in;
+
+    &:hover{
+        color: black;
+        box-shadow: 0 0 30px 0 transparent(rgb(34, 34, 161), 0.5);
+        background-color: rgb(34, 34, 161);
+
+       transition: all 0.6s ease-out;
+
+       &::before{
+        animation: shine 0.6s 0s linear;
+       }
+    }
+
+    &:active{
+        box-shadow: 0 0 0 0 transparent;
+        transition: 0.6s ease-in;
+    }
+
 }
 .btn-repositorio a{
     text-decoration: none;
+    color: black;
 }
 .btn-repositorio:hover{
     background-color:  rgb(34, 34, 161);
+    cursor: pointer;
 }
 .btn-demo{
     border: none;
     background-color: rgb(34, 34, 161);
-    
+    text-transform: uppercase;
+    position: relative;
+    transition: 800ms ease all;
+    outline: none;
 }
 .btn-demo a{
     text-decoration: none;
+    color: black;
+}
+.btn-demo a:hover{
+    color: #1AAB8A;
 }
 .btn-demo:hover{
-    background-color: white;
+    cursor: pointer;
+    background:#fff;
+    color:#1AAB8A;
+}
+.btn-demo::before,.btn-demo::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2px;
+    width: 0;
+    background: #1AAB8A;
+    transition: 400ms ease all;
+}
+.btn-demo::after{
+    right: inherit;
+    top: inherit;
+    left: 0;
+    bottom: 0;
+}
+.btn-demo:hover::before,.btn-demo:hover::after{
+    width: 100%;
+    transition: 800ms ease all;
 }
 .imagen2{
     margin: 15px 67px 35px;
